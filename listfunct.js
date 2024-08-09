@@ -14,6 +14,8 @@ function PageCreate (targetId)
 
 function CreateList (targetId, Name)
 {
+    alert(Name)
+    
     let listName = ""
     
     if  (Name === "")
