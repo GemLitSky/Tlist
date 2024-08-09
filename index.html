@@ -3,24 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="listfunct.js"></script>
     <title>Tayos List WIP</title>
 </head>
 <body>
-    <div class="row">
-        <ol class="column">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ol>
-        <ol class="column">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ol>
+<input id="test" type="button" value="Load Default" onclick="PageCreate('t1')">
+<input id="listName" type="text">
+<input id="test2" type="button" value="Add List" onclick="CreateList('t1', listName.value);listName.value=null">
+    <div id="t1" class="tlist">
     </div>    
 </body>
 </html>

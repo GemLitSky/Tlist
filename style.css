@@ -1,11 +1,16 @@
-﻿.column {
-    float: left;
-    width: 50%;
+﻿.tlist {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.lista {
+    border-left: blueviolet;
+    border-right: blueviolet;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-left-style: solid;
+    border-right-style: solid;
+    column-span: none;
 }
+
