@@ -18,7 +18,7 @@ function CreateList (targetId, Name)
     
     let listName = ""
     
-    if  (Name === "")
+    if  (Name === "" || Name === null || Name === undefined)
     {
         listName = "List "+listNum    
     }
